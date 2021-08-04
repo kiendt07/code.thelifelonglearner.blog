@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Subtle Coding"
+theme = "yinyang"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[params]
+headTitle = "Subtle Coding"
+[[params.socials]]
+name = "The Lifelong Learner"
+link = "http://thelifelonglearner.blog"
+[[params.socials]]
+name = "Github"
+link = "https://github.com/kiendt07"
