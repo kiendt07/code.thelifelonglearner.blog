@@ -17,7 +17,7 @@ theme = "yinyang"
 headTitle = "Subtle Coding"
 [[params.socials]]
 name = "The Lifelong Learner"
-link = "http://thelifelonglearner.blog"
+link = "https://thelifelonglearner.blog"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/kiendt07"
