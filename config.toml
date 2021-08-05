@@ -13,11 +13,12 @@ theme = "yinyang"
     style = "bw"
     tabWidth = 2
 
-[params]
+[Params]
 headTitle = "Subtle Coding"
-[[params.socials]]
+favicon = "/img/favicon.ico?v=0"
+[[Params.socials]]
 name = "The Lifelong Learner"
 link = "https://thelifelonglearner.blog"
-[[params.socials]]
+[[Params.socials]]
 name = "Github"
 link = "https://github.com/kiendt07"
