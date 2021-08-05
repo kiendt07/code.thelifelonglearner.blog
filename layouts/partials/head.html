@@ -40,29 +40,17 @@
   {{ end }}
 
   {{ with resources.Get "css/index.css" | minify }}
-  <style>
-    {
-        {
-        .Content | safeCSS
-      }
-    }
-  </style>
+    <style>{{ .Content | safeCSS }}</style>
   {{ end }}
   {{ with resources.Get "css/flexboxgrid-6.3.1.min.css" | minify }}
-  <style>
-    {
-        {
-        .Content | safeCSS
-      }
-    }
-  </style>
+    <style>{{ .Content | safeCSS }}</style>
   {{ end }}
 
   {{ range .Site.Params.extraCSSFiles -}}
   <link rel="stylesheet" href="{{ $.Site.Params.staticPrefix }}{{ . | relURL }}">
   {{- end }}
 
-  <link href="{{ .Site.Params.staticPrefix }}{{ " index.xml" | relURL }}" rel="alternate" type="application/rss+xml"
+  <link href="{{ .Site.Params.staticPrefix }}{{ "index.xml" | relURL }}" rel="alternate" type="application/rss+xml"
     title="{{ .Site.Title }}">
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
