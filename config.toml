@@ -16,6 +16,7 @@ theme = "yinyang"
 [Params]
 headTitle = "Subtle Coding"
 favicon = "/img/favicon.ico?v=0"
+extraCSSFiles = ["css/index.css"]
 [[Params.socials]]
 name = "The Lifelong Learner"
 link = "https://thelifelonglearner.blog"

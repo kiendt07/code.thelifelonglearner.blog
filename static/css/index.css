@@ -1,0 +1,9 @@
+/* global */
+
+body {
+  font-family: 'Baloo 2', monospace;
+}
+
+.markdown-body {
+  line-height: 1.6;
+}
