@@ -19,4 +19,12 @@ Then JAMstack comes in.
 
 Here's my explaination about JAMstack: instead of 
 
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gtayk65t2ij30if0ecaai.jpg)
+
 Nothing good comes without a price right?
+
+## Static Site Generator comparison
+
+
+
+## Headless CMS comparison
